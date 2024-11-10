@@ -32,10 +32,10 @@ export const technologies = [
   { name: "Pthon", icon: "   https://cdn-icons-png.flaticon.com/512/5968/5968350.png " },
 
 
-  { name: "React JS", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech/ReactJS.png" },
-  { name: "Next JS", icon: "   https://cdn-icons-png.flaticon.com/512/318/318476.png " },
-  { name: "Angular", icon: "   https://cdn-icons-png.flaticon.com/512/15484/15484402.png " },
-  { name: "Three JS", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech/ThreeJS.png" },
+  // { name: "React JS", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech/ReactJS.png" },
+  // { name: "Next JS", icon: "   https://cdn-icons-png.flaticon.com/512/318/318476.png " },
+  // { name: "Angular", icon: "   https://cdn-icons-png.flaticon.com/512/15484/15484402.png " },
+  // { name: "Three JS", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech/ThreeJS.png" },
 
   // Backend Technologies
   { name: "Node JS", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech/NodeJS.png" },
