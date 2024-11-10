@@ -21,26 +21,10 @@ export const services = [
 ];
 
 export const technologies = [
-
-  // { name: "Bootstrap", icon: "https://cdn-icons-png.flaticon.com/512/5968/5968672.png" },
-  // { name: "Tailwind CSS", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech/TailwindCSS.png" },
-
-
   { name: "JavaScript", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech/Javascript.png" },
   { name: "TypeScript", icon: "https://cdn-icons-png.flaticon.com/512/5968/5968381.png" },
   { name: "Php", icon: "   https://cdn-icons-png.flaticon.com/512/919/919830.png " },
   { name: "Pthon", icon: "   https://cdn-icons-png.flaticon.com/512/5968/5968350.png " },
-
-
-  // { name: "React JS", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech/ReactJS.png" },
-  // { name: "Next JS", icon: "   https://cdn-icons-png.flaticon.com/512/318/318476.png " },
-  // { name: "Angular", icon: "   https://cdn-icons-png.flaticon.com/512/15484/15484402.png " },
-  // { name: "Three JS", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech/ThreeJS.png" },
-
-  // Backend Technologies
-  { name: "Node JS", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech/NodeJS.png" },
-
-  // Tools
   { name: "git", icon: "https://lohitcdn.blob.core.windows.net/portfoliocdn/Tech/Git.png" },
   { name: "figma", icon: "https://cdn-icons-png.flaticon.com/512/5968/5968705.png" },
   { name: "docker", icon: "https://cdn-icons-png.flaticon.com/512/919/919853.png" },
