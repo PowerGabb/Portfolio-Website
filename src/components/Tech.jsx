@@ -1,3 +1,5 @@
+import { useMediaQuery } from "react-responsive";
+
 import React from "react";
 import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -11,10 +13,21 @@ const renderTechnologies = () => {
   ));
 };
 
-const Tech = () => (
-  <div className="flex flex-row flex-wrap justify-center gap-10">
-    {renderTechnologies()}
-  </div>
-);
+const Tech = () => {
+  const isDesktopOrLaptop = useMediaQuery({
+    query: "(min-width: 1224px)",
+  });
+
+  if (!isDesktopOrLaptop) {
+    return null;
+  }
+
+  return (
+    <div className="flex flex-row flex-wrap justify-center gap-10">
+      {renderTechnologies()}
+    </div>
+  );
+};
 
 export default SectionWrapper(Tech, "");
+
