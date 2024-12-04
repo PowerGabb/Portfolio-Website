@@ -105,8 +105,16 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact Me</h3>
 
+        <div className="flex flex-row gap-2">
         <div className="w-10 h-10 mt-3" onClick={() => window.open("https://www.linkedin.com/in/rangga-bayu-pratama-56b478265/", "_blank")}>
           <img src="/linkedin.png" alt="" />
+        </div>
+        <div className="w-10 h-10 mt-3" onClick={() => window.open("https://wa.me/+6281539872889", "_blank")}>
+          <img src="/whatsapp.png" alt="" />
+        </div>
+        <div className="w-10 h-10 mt-3" onClick={() => window.open("https://www.instagram.com/rang_ga_bayu/", "_blank")}>
+          <img src="/instagram.png" alt="" />
+        </div>
         </div>
 
         <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8">
