@@ -160,7 +160,7 @@ export const projects = [
       { name: "Spring Batch", color: "green-text-gradient" },
       { name: "Database", color: "pink-text-gradient" },
     ],
-    image: "audit.png",
+    image: "ams-batch.png",
   },
   {
     name: "Building Management System",
